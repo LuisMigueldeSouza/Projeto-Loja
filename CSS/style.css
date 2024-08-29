@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body, html {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(230, 25, 25);
+    color: white;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section > div#product1 {
+    background-color: rgb(218, 218, 218);
+}
+
+section > div#product2 {
+    background-color: rgb(218, 218, 218);
+}
