@@ -14,37 +14,47 @@ p#faixaPromo > a {
 }
 
 header > section#secao1 {
-    display: flex;              
-    align-items: center;        
-    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 30px;
     margin-top: 20px;    
 }
 
 header > section#secao1 > h1 {
-    margin: 0;                   
+    margin: 0;
 }
 
 header > section#secao1 > nav {
-    display: flex;               
-    justify-content: center;     
-    flex-grow: 1;              
+    flex-grow: 1;
+    text-align: center;  /* Centraliza o conteúdo do nav */
 }
 
 header > section#secao1 > nav > ul {
-    list-style-type: none;       
-    padding: 0;                  
-    margin: 0;                   
-    display: flex;              
-    gap: 20px;                   
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex; /* Usar inline-flex para manter o nav centralizado */
+    gap: 20px;
 }
 
 header > section#secao1 > nav > ul > li {
-    margin: 0;                   
+    margin: 0;
 }
 
 header > section#secao1 > nav > ul > li > a {
-    text-decoration: none;       
-    color: rgb(80, 79, 79);      
-    padding: 10px 15px;          
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    padding: 10px 15px;
+}
+
+header > section#secao1 > div#auth-buttons {
+    display: flex;
+    gap: 20px;  /* Espaçamento entre os botões */
+}
+
+header > section#secao1 > div#logincadastro > a {
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    padding: 10px 15px;
 }
