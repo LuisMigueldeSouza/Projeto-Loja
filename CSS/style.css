@@ -27,14 +27,14 @@ header > section#secao1 > h1 {
 
 header > section#secao1 > nav {
     flex-grow: 1;
-    text-align: center;  /* Centraliza o conteúdo do nav */
+    text-align: center;  
 }
 
 header > section#secao1 > nav > ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline-flex; /* Usar inline-flex para manter o nav centralizado */
+    display: inline-flex; 
     gap: 20px;
 }
 
@@ -50,7 +50,7 @@ header > section#secao1 > nav > ul > li > a {
 
 header > section#secao1 > div#auth-buttons {
     display: flex;
-    gap: 20px;  /* Espaçamento entre os botões */
+    gap: 20px;  
 }
 
 header > section#secao1 > div#logincadastro > a {
